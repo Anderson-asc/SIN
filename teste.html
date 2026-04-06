@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+<meta charset="UTF-8">
+<title>ASC Inventário</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div id="login">
+  <h2>Login</h2>
+  <input id="email" placeholder="Email">
+  <input id="senha" type="password" placeholder="Senha">
+  <button onclick="login()">Entrar</button>
+</div>
+
+<div id="app" style="display:none;">
+  <h2>Inventário</h2>
+  <button onclick="novo()">Novo</button>
+  <ul id="lista"></ul>
+</div>
+
+<script src="app.js"></script>
+</body>
+</html>
